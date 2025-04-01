@@ -1,181 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignesh Mathiyalagan - Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e9173d;
+            background-color: #f8f8f8;
         }
-
         header {
-            background-color: #c4e909;
-            color: #fff;
+            background-color: #c8ff33;
             text-align: center;
-            padding: 2rem 0;
-            position: relative;
+            padding: 20px;
+            color: #000;
+            font-size: 24px;
         }
-
-        .header-content h1 {
-            font-size: 2.5rem;
-        }
-
-        .profile-picture {
-            width: 100px;
-            height: 100px;
-            border-radius: 75%;
-            object-fit: cover;
-            position: absolute;
-            top: 75px;
-            left: 75px;
-        }
-
         nav {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            background-color: #d92b2b;
+            padding: 10px;
         }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 20px;
-        }
-
-        nav ul li a {
+        nav a {
+            color: white;
             text-decoration: none;
-            color: #fff;
+            padding: 10px 20px;
+            font-weight: bold;
         }
-
-        .section-content {
-            background-color: #fff;
-            padding: 2rem;
-            margin: 1rem;
-            border-radius: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: justify;
+        nav a:hover {
+            background-color: black;
+            border-radius: 5px;
         }
-
-        .download-button {
-            background-color: #333;
-            color: #fff;
-            padding: 0.5rem 1rem;
-            text-decoration: none;
-            border-radius: 20px;
-            display: inline-block;
-            margin-top: 10px;
-            align-self: center;
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
         }
-
-        .download-button:hover {
-            background-color: #555;
+        .section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
         }
-
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background-color: #333;
-            color: #fff;
+        h2 {
+            color: #d92b2b;
         }
-
         ul {
-            list-style-type: disc;
-            padding-left: 20px;
+            list-style-type: square;
+        }
+        .resume {
+            text-align: center;
+        }
+        .resume a {
+            display: inline-block;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
+
     <header>
-        <div class="header-content">
-            <img src="./your-image.jpg" alt="Profile Picture" class="profile-picture">
-            <h1>Shyam Sundar J</h1>
-            <p>Data Science Student</p>
-        </div>
+        <h1>Vignesh Mathiyalagan</h1>
+        <p>An Electronics Engineer</p>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#resume">Resume</a></li>
-        </ul>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
     </nav>
 
-    <section id="about">
-        <div class="section-content">
+    <div class="container">
+        
+        <div id="about" class="section">
             <h2>About Me</h2>
-            <p>I'm a passionate <b>Data Science Student</b> with a strong interest in analytics, AI, and machine learning. I love solving real-world problems using data-driven solutions.</p>
+            <p>I'm a <strong>cyber security</strong> expert and technology enthusiast passionate about helping organizations protect their data. With over 7 years of experience, I stay updated with the latest trends in cybersecurity and online security.</p>
         </div>
-    </section>
 
-    <section id="education">
-        <div class="section-content">
+        <div id="education" class="section">
             <h2>Education</h2>
-            <p>Prince Shri Venkateshwara Arts and Science College - Data Science Student</p>
+            <p><strong>Anna University</strong> - Electrical & Electronics Engineering</p>
         </div>
-    </section>
 
-    <section id="skills">
-        <div class="section-content">
+        <div id="skills" class="section">
             <h2>Skills</h2>
             <ul>
-                <li>Data Science</li>
-                <li>Machine Learning</li>
+                <li>CyberSecurity</li>
+                <li>Internet of Things</li>
+                <li>Cloud Computing</li>
                 <li>Python</li>
-                <li>Deep Learning</li>
-                <li>SQL</li>
-                <li>Big Data Analytics</li>
-                <li>Artificial Intelligence</li>
-                <li>Power BI</li>
-                <li>Statistics</li>
+                <li>IBM Cloud</li>
+                <li>ML & AI</li>
+                <li>Java</li>
+                <li>Blockchain</li>
+                <li>C++</li>
+                <li>JavaScript</li>
             </ul>
         </div>
-    </section>
 
-    <section id="projects">
-        <div class="section-content">
+        <div id="projects" class="section">
             <h2>Projects</h2>
             <ul>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">AI-Based Alternator Control System</a></li>
+                <li><a href="#">Cloud Security IBM</a></li>
+                <li><a href="#">IBM Chatbot</a></li>
+                <li><a href="#">Chatbot</a></li>
             </ul>
         </div>
-    </section>
 
-    <section id="resume">
-        <div class="section-content">
-            <center>
-                <h2>Resume</h2>
-                <a href="./your-resume.pdf" target="_blank" class="download-button">Download CV</a>
-            </center>
+        <div id="resume" class="section resume">
+            <h2>Resume</h2>
+            <a href="#">Download CV</a>
         </div>
-    </section>
 
-    <footer>
-        <p>&copy; Shyam Sundar J</p>
-    </footer>
+    </div>
 
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-    </script>
+    <div class="footer">
+        &copy; 2023 VIGNESH M
+    </div>
+
 </body>
 </html>
