@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vignesh Mathiyalagan - Portfolio</title>
+    <title>Shyam Sundar - Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -76,8 +75,8 @@
 <body>
 
     <header>
-        <h1>Vignesh Mathiyalagan</h1>
-        <p>An Electronics Engineer</p>
+        <h1>Shyam Sundar</h1>
+        <p>An Student</p>
     </header>
 
     <nav>
@@ -134,7 +133,7 @@
     </div>
 
     <div class="footer">
-        &copy; 2023 VIGNESH M
+        &copy; Shyam 
     </div>
 
 </body>
