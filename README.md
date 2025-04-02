@@ -76,7 +76,7 @@
 
     <header>
         <h1>Shyam Sundar</h1>
-        <p>An Student</p>
+        <p>Student</p>
     </header>
 
     <nav>
